@@ -9,7 +9,16 @@ def EuclidsMethodMod(m,n):
     if n == 0:
         return m
         
-    return EuclidsMethodMod(n, m % n)
+    return EuclidsMethodMod(n, m % n )
+    
+def EuclidsMethodModMin(m,n):
+    """Uses Euclids method to calculate the greatest common denominator"""
+    
+    #terminate recursion when n equals zero
+    if n == 0:
+        return m
+        
+    return EuclidsMethodModMin(n, min( (m % n), (m - n % n) ) )
     
 def EuclidsMethodMinus(m , n):
 
@@ -36,3 +45,6 @@ if __name__ == '__main__':
     
     print "Euclids Method Minus: "
     print EuclidsMethodMinus(m, n)
+    
+    print "Euclids Method Mod Min: "
+    print EuclidsMethodModMin(m, n)
