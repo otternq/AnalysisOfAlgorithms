@@ -15,6 +15,8 @@ $ ls
 EuclidsMethod.py  EuclidsMethod.pyc	__init__.py		__init__.pyc
 $ python EuclidsMethod.py 64 46
 2
+$ python EuclidsMethod.py 55, 22
+11
 
 ```
 
