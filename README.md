@@ -1,7 +1,13 @@
-AnalysisOfAlgorithms
+Analysis Of Algorithms
 ====================
 
-Class examples from University of Idaho CS 395
+Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts.
+
+CS/MATH 395
+--------
+University of Idaho CS/MATH 395 (Spring 2013)
+
+[Class Website](http://marvin.cs.uidaho.edu/Teaching/CS395/index.html)
 
 Greatest Common Denominator
 --------------
@@ -14,8 +20,18 @@ $ cd GreatestCommonDenominator/
 $ ls
 EuclidsMethod.py  EuclidsMethod.pyc	__init__.py		__init__.pyc
 $ python EuclidsMethod.py 64 46
+Euclids Method Mod: 
 2
-$ python EuclidsMethod.py 55, 22
+Euclids Method Minus: 
+2
+Euclids Method Mod Min: 
+2
+$ python EuclidsMethod.py 55 22
+Euclids Method Mod: 
+11
+Euclids Method Minus: 
+11
+Euclids Method Mod Min: 
 11
 
 ```
@@ -28,9 +44,9 @@ After `nose` is installed on your system, simply run the command `nosetests` fro
 $ ls
 GreatestCommonDenominator  setup.py  README.md  tests
 $ nosetests
-.
+........
 ----------------------------------------------------------------------
-Ran 1 test in 0.006s
+Ran 8 tests in 0.015s
 
 OK
 
@@ -44,6 +60,14 @@ This package is structured to use nosetests, if you do not want to run unit test
 
 ####installation####
 To install the nose package, use python's easy install feature, `easy_install nose` (on my Mac I had to run `sudo easy_install nose`)
+
+Platform
+---------
+Language: Python
+
+###Developed on###
+- <b>Operating System</b>: Mac OS X
+- <b>Python Version</b>: Python 2.7.2
 
 Resources
 -----------

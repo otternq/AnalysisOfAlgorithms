@@ -1,5 +1,5 @@
 import sys;
-"""A slightly modified version of the code provided in CS395 by Prof. Heckendorn on 1/11/2013"""
+"""A slightly modified version of the code provided in CS395 by Prof. Heckendorn (1/11/2013 - 1/14/2013)"""
 
 
 def EuclidsMethodMod(m,n):
@@ -12,13 +12,13 @@ def EuclidsMethodMod(m,n):
     return EuclidsMethodMod(n, m % n )
     
 def EuclidsMethodModMin(m,n):
-    """Uses Euclids method to calculate the greatest common denominator"""
+    """A modified version of Euclids method that runs uses min()"""
     
     #terminate recursion when n equals zero
     if n == 0:
         return m
         
-    return EuclidsMethodModMin(n, min( (m % n), (m - n % n) ) )
+    return EuclidsMethodModMin(n, min( (m % n), (n - m % n) ) )
     
 def EuclidsMethodMinus(m , n):
 
