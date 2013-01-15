@@ -1,11 +1,11 @@
-AnalysisOfAlgorithms
+Analysis Of Algorithms
 ====================
 
 Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts.
 
 CS/MATH 395
 --------
-Class examples from University of Idaho  (Spring 2013)
+University of Idaho CS/MATH 395 (Spring 2013)
 
 [Class Website](http://marvin.cs.uidaho.edu/Teaching/CS395/index.html)
 
