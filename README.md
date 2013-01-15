@@ -1,7 +1,7 @@
 AnalysisOfAlgorithms
 ====================
 
-Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts
+Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts.
 
 CS/MATH 395
 --------
@@ -50,6 +50,14 @@ This package is structured to use nosetests, if you do not want to run unit test
 
 ####installation####
 To install the nose package, use python's easy install feature, `easy_install nose` (on my Mac I had to run `sudo easy_install nose`)
+
+Platform
+---------
+Language: Python
+
+###Developed on###
+- <b>Operating System</b>: Mac OS X
+- <b>Python Version</b>: Python 2.7.2
 
 Resources
 -----------
