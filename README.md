@@ -20,8 +20,18 @@ $ cd GreatestCommonDenominator/
 $ ls
 EuclidsMethod.py  EuclidsMethod.pyc	__init__.py		__init__.pyc
 $ python EuclidsMethod.py 64 46
+Euclids Method Mod: 
 2
-$ python EuclidsMethod.py 55, 22
+Euclids Method Minus: 
+2
+Euclids Method Mod Min: 
+2
+$ python EuclidsMethod.py 55 22
+Euclids Method Mod: 
+11
+Euclids Method Minus: 
+11
+Euclids Method Mod Min: 
 11
 
 ```
@@ -34,9 +44,9 @@ After `nose` is installed on your system, simply run the command `nosetests` fro
 $ ls
 GreatestCommonDenominator  setup.py  README.md  tests
 $ nosetests
-.
+........
 ----------------------------------------------------------------------
-Ran 1 test in 0.006s
+Ran 8 tests in 0.015s
 
 OK
 
