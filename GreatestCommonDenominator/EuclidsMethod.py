@@ -29,6 +29,14 @@ def EuclidsMethodMinus(m , n):
         return m
         
     return EuclidsMethodMinus(n, m-n)
+    
+def EuclidsMethodBrute(m, n):
+    
+    for i in range( min(m, n), 0, -1):
+        
+        if (m % i) == 0 and (n % i) == 0:
+            return i;
+        
    
 #this will only run if this file is being executed from command line
 #and will be ignored of included by another scrips/module/project 
@@ -48,3 +56,6 @@ if __name__ == '__main__':
     
     print "Euclids Method Mod Min: "
     print EuclidsMethodModMin(m, n)
+    
+    print "Euclids Method Brute Force: "
+    print EuclidsMethodBrute(m, n)
