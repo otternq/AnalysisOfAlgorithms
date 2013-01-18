@@ -2,11 +2,12 @@ import unittest
 from GreatestCommonDenominator import EuclidsMethod
 
 
-class EuclidsMethodModTest(unittest.TestCase):
+class EuclidsMethodTest(unittest.TestCase):
     """This will run unit tests on Euclids Method to make sure of its correctness"""
     
     def setUp(self):
         self.inputs = [
+            #input one, input two, expected output
             [64, 46, 2],
             [55, 55, 55],
             [55, 22, 11],
