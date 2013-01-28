@@ -1,4 +1,3 @@
-import sys;
 """A slightly modified version of the code provided in CS395 by Prof. Heckendorn (1/11/2013 - 1/14/2013)"""
 
 
@@ -41,6 +40,8 @@ def EuclidsMethodBrute(m, n):
 #this will only run if this file is being executed from command line
 #and will be ignored of included by another scrips/module/project 
 if __name__ == '__main__':
+
+    import sys;
 
     #the first command line argument is considered m
     m = int(sys.argv[1])

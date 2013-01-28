@@ -1,5 +1,3 @@
-import sys;
-
 def BruteForce(haystack, needle):
     """
         Searches an item in a list (finding a needle in a haystack) using a brute force method
