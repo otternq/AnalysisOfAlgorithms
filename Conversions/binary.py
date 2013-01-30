@@ -1,4 +1,10 @@
 def num2bin(n):
+    """
+    Converts a number to binary
+    
+    Keyword arguments:
+        n -- the base 10 number to convert to binary
+    """
     str = ""
     while n > 0:
         if n% 2 ==1:
@@ -11,6 +17,12 @@ def num2bin(n):
 #END def numb2bin
 
 def num2binRec(n):
+    """
+    Recursively converts a number to binary
+    
+    Keyword arguments:
+        n -- the base 10 number to convert to binary
+    """
     if n == 0: return ""
     elif n % 2 == 1: return num2binRec(n//2) + "1"
     else: return num2binRec(n//2) + "0"
@@ -21,7 +33,7 @@ def num2binSize(n, size):
     Converts a number to binary and allows a output size to be defined
     
     Keyword arguments:
-        n -- the base 10 number to convert
+        n -- the base 10 number to convert to binary
         size -- the number of digits in the output
     """
     
@@ -44,7 +56,7 @@ def num2binSizeRec(n, size):
     Recursively converts a number to binary and allow a output size to be defined
     
     Keyword arguments:
-        n -- the base 10 number to convert
+        n -- the base 10 number to convert to binary
         size -- the number of digits in the output
     
     M(0) = 0
@@ -55,7 +67,7 @@ def num2binSizeRec(n, size):
     if size == 0:
         return ""
     elif n % 2 == 1:
-        return num2binSizeRec(n//2, size - 1)
+        return num2binSizeRec(n//2, size - 1) + "1"
     else:
         return num2binSizeRec(n//2, size - 1) + "0"
     
@@ -66,7 +78,7 @@ def num2binSizeRec2(n, size):
     Recursively converts a number to binary and allow a output size to be defined
     
     Keyword arguments:
-        n -- the base 10 number to convert
+        n -- the base 10 number to convert to binary
         size -- the number of digits in the output
         
     M(size) = size + M(size+size2) + M(size2)
@@ -87,10 +99,8 @@ def num2binSizeRec2(n, size):
     
     if size == 1:
         if n % 2 == 1:
-            print "x"
             return "1"
         else:
-            print "x"
             return "0"
         
     size2 = size//2
@@ -104,7 +114,7 @@ def num2binSizeWithPrint(n, size):
     Converts a number to binary and and allows a output size to be defined
     
     Keyword arguments:
-        n -- the base 10 number to convert
+        n -- the base 10 number to convert to binary
         size -- the number of digits in the output
     """
     
@@ -134,9 +144,6 @@ if __name__ == "__main__":
     m = int(sys.argv[1])
     size = int(sys.argv[2])
     
-    print num2bin(m)
-    print num2binRec(m)
-    print num2binSizeWithPrint(m, size)
-    print num2binSizeRec2(m, size)
+    print num2binSizeRec(m, size)
     
     
