@@ -87,8 +87,10 @@ def num2binSizeRec2(n, size):
     
     if size == 1:
         if n % 2 == 1:
+            print "x"
             return "1"
         else:
+            print "x"
             return "0"
         
     size2 = size//2
