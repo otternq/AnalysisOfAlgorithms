@@ -20,7 +20,7 @@ def BubbleSort(x):
                 (x[j], x[j+1]) = (x[j+1], x[j])
     
         #print the current state
-        print x[:len(x)-1-i], x[len(x)-1-i:]
+        print(x[:len(x)-1-i], x[len(x)-1-i:])
 
     #return the sorted list
     return x
@@ -59,5 +59,5 @@ if __name__ == "__main__":
     
     l = [7,6,5,4,3,2,1];
     
-    print BubbleSort(l);
-    print SelectionSort(l);
+    print(BubbleSort(l))
+    print(SelectionSort(l))

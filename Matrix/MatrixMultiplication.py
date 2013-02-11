@@ -39,4 +39,4 @@ if __name__ == "__main__":
         [3,4]
     ])
     
-    print MatrixMultiplication(a, b)
+    print(MatrixMultiplication(a, b))

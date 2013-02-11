@@ -49,14 +49,14 @@ if __name__ == '__main__':
     #the seconds command line argument is considered n
     n = int(sys.argv[2])
     
-    print "Euclids Method Mod: "
-    print EuclidsMethodMod(m, n)
+    print("Euclids Method Mod: ")
+    print(EuclidsMethodMod(m, n))
     
-    print "Euclids Method Minus: "
-    print EuclidsMethodMinus(m, n)
+    print("Euclids Method Minus: ")
+    print(EuclidsMethodMinus(m, n))
     
-    print "Euclids Method Mod Min: "
-    print EuclidsMethodModMin(m, n)
+    print("Euclids Method Mod Min: ")
+    print(EuclidsMethodModMin(m, n))
     
-    print "Euclids Method Brute Force: "
-    print EuclidsMethodBrute(m, n)
+    print("Euclids Method Brute Force: ")
+    print(EuclidsMethodBrute(m, n))

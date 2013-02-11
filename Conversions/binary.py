@@ -133,7 +133,7 @@ def num2binSizeWithPrint(n, size):
             
         n = n//2 #integer divide
     
-    print count
+    print(count)
     return str
     
 if __name__ == "__main__":
@@ -144,6 +144,6 @@ if __name__ == "__main__":
     m = int(sys.argv[1])
     size = int(sys.argv[2])
     
-    print num2binSizeRec(m, size)
+    print(num2binSizeRec(m, size))
     
     
