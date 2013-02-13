@@ -71,7 +71,7 @@ Language: Python
 
 ###Developed on###
 - <b>Operating System</b>: Mac OS X
-- <b>Python Version</b>: Python 2.7.2
+- <b>Python Version</b>: Python 2.7.2 and Python 3.3
 
 Resources
 -----------
