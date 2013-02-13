@@ -9,6 +9,10 @@ University of Idaho CS/MATH 395 (Spring 2013)
 
 [Class Website](http://marvin.cs.uidaho.edu/Teaching/CS395/index.html)
 
+TODO
+------
+- [X] Convert to Python 3
+
 Greatest Common Denominator
 --------------
 This module contains functions/classes to calculate the Greatest Common Denominator. Euclids method is such an algorithm.
@@ -67,7 +71,7 @@ Language: Python
 
 ###Developed on###
 - <b>Operating System</b>: Mac OS X
-- <b>Python Version</b>: Python 2.7.2
+- <b>Python Version</b>: Python 2.7.2 and Python 3.3
 
 Resources
 -----------

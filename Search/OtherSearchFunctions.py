@@ -37,4 +37,4 @@ def unique(l):
 if __name__ == '__main__':
     vals = [1,5,8,7,6]
     
-    print maxelem(vals)
+    print(maxelem(vals))
