@@ -11,7 +11,7 @@ University of Idaho CS/MATH 395 (Spring 2013)
 
 TODO
 ------
-- [ ] Convert to Python 3
+- [X] Convert to Python 3
 
 Greatest Common Denominator
 --------------
