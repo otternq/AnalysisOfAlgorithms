@@ -1,7 +1,7 @@
 import unittest
 from Search.SearchFunctions import BruteForce
 from Search.OtherSearchFunctions import unique, maxelem
-
+from Search.BinarySearch import binarySearch
 
 class SearchFunctionsTest(unittest.TestCase):
 
@@ -13,6 +13,14 @@ class SearchFunctionsTest(unittest.TestCase):
             [55, 22, 11],
             [60, 14, 2]
         ]
+
+    def testBinarySearch(self):
+        l = [1,2,3,4,5,6]
+
+        index = binarySearch(l, 4)
+        self.assertEqual(index, 3)
+
+
         
     def testBruteForce(self):
         #should find the number 2
