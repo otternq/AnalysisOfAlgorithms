@@ -3,6 +3,8 @@ Analysis Of Algorithms
 
 Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts.
 
+Unit Tests are ran at [TravisCI](https://travis-ci.org/otternq/AnalysisOfAlgorithms/)
+
 CS/MATH 395
 --------
 University of Idaho CS/MATH 395 (Spring 2013)
