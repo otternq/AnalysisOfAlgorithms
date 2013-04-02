@@ -20,7 +20,7 @@ def BubbleSort(x):
                 (x[j], x[j+1]) = (x[j+1], x[j])
     
         #print the current state
-        print(x[:len(x)-1-i], x[len(x)-1-i:])
+        #print(x[:len(x)-1-i], x[len(x)-1-i:])
 
     #return the sorted list
     return x
@@ -53,6 +53,39 @@ def SelectionSort(x):
 
     #return the sorted list
     return x
+
+def insertionSort(x):
+
+    for i in range(1, len(x)):
+        #everything to the left of position i is sorted
+
+        minv = x[i]
+        j = i - 1
+
+        while j >= 0 and x[j] > minv:
+            x[j+1] = x[j]
+            j -= 1
+        x[j+1] = minv
+
+        #print(x[:i+1], x[i+1:])
+    return x
+
+def shellSort(x):
+    sortaux(x, 4)
+    sortaux(x, 1)
+
+def shellSortAux(x, step):
+    for i in range(step, len(x)):
+        #everything to the left of the position is sorted
+        minv = x[i]
+        j = i-step
+        while j >= 0 and x[j] > minv:
+            print("x")
+            x[j+step] = x[j]
+            #
+            #incomplete
+            #
+
     
 
 if __name__ == "__main__":
@@ -61,3 +94,4 @@ if __name__ == "__main__":
     
     print(BubbleSort(l))
     print(SelectionSort(l))
+    print(insertionSort(l))

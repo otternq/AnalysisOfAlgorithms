@@ -1,4 +1,4 @@
-from SetGraph import relink, dfs
+from SetGraph import relink, depthFirstSearch, isconnected, initFillArray, numberit
 #dictionary/list representaion of a graph
 
 print("Dictionary/List Start")
@@ -57,24 +57,14 @@ print("Digraph now looks like")
 print(digraph)
 
 
-def initFillArray(size, value):
-	"""
-	Class example was called array
-
-	Keyword arguments:
-		size - how many elements should be created
-		value - the values to initalize each element to
-	"""
-	a = []
-	for i in range(0, size):
-		a.append(value)
-	return a
-
 print(initFillArray(len(digraph), False))
 
 visit = initFillArray(len(digraph), False)
 print(visit)
-dfs(digraph, visit, 0)
+depthFirstSearch(digraph, visit, 0)
 print(visit)
+
+print(isconnected(digraph))
+print(numberit(digraph))
 
 print("List/Set END\n\n")

@@ -3,15 +3,16 @@ Analysis Of Algorithms
 
 Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts.
 
+Unit Tests are ran at [TravisCI](https://travis-ci.org/otternq/AnalysisOfAlgorithms/)
+
+[![Build Status](https://travis-ci.org/otternq/AnalysisOfAlgorithms.png)](https://travis-ci.org/otternq/AnalysisOfAlgorithms)
+
 CS/MATH 395
 --------
 University of Idaho CS/MATH 395 (Spring 2013)
 
 [Class Website](http://marvin.cs.uidaho.edu/Teaching/CS395/index.html)
 
-TODO
-------
-- [X] Convert to Python 3
 
 Greatest Common Denominator
 --------------

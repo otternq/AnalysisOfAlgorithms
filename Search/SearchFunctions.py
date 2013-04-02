@@ -24,5 +24,3 @@ def BruteForce(haystack, needle):
     
     #Failed to find the element
     return False
-        
-    
