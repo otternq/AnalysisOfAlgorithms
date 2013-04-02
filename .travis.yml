@@ -7,3 +7,8 @@ python:
 
 # command to run tests
 script: nosetests
+
+# Here we install the ubuntu dependencies with apt-get.
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install python-numpy
