@@ -5,7 +5,11 @@ Implementation of algorithms discussed in CS/MATH 395 along with unit tests and 
 
 Unit Tests are ran at [TravisCI](https://travis-ci.org/otternq/AnalysisOfAlgorithms/)
 
-[![Build Status](https://travis-ci.org/otternq/AnalysisOfAlgorithms.png)](https://travis-ci.org/otternq/AnalysisOfAlgorithms)
+Project Status
+-----------
+| Master | Development |
+| ------ | ----------- |
+| [![Build Status](https://travis-ci.org/otternq/AnalysisOfAlgorithms.png?branch=master)](https://travis-ci.org/otternq/AnalysisOfAlgorithms) | [![Build Status](https://travis-ci.org/otternq/AnalysisOfAlgorithms.png?branch=development)](https://travis-ci.org/otternq/AnalysisOfAlgorithms) |
 
 CS/MATH 395
 --------
