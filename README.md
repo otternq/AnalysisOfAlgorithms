@@ -4,6 +4,7 @@ Analysis Of Algorithms
 Implementation of algorithms discussed in CS/MATH 395 along with unit tests and scripts.
 
 Unit Tests are ran at [TravisCI](https://travis-ci.org/otternq/AnalysisOfAlgorithms/)
+Test Coverage are ran at [Coveralls](https://coveralls.io/r/otternq/AnalysisOfAlgorithms)
 
 Project Status
 -----------
