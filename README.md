@@ -10,6 +10,7 @@ Project Status
 | Master | Development |
 | ------ | ----------- |
 | [![Build Status](https://travis-ci.org/otternq/AnalysisOfAlgorithms.png?branch=master)](https://travis-ci.org/otternq/AnalysisOfAlgorithms) | [![Build Status](https://travis-ci.org/otternq/AnalysisOfAlgorithms.png?branch=development)](https://travis-ci.org/otternq/AnalysisOfAlgorithms) |
+|[![Coverage Status](https://coveralls.io/repos/otternq/AnalysisOfAlgorithms/badge.png?branch=master)](https://coveralls.io/r/otternq/AnalysisOfAlgorithms) | [![Coverage Status](https://coveralls.io/repos/otternq/AnalysisOfAlgorithms/badge.png?branch=development)](https://coveralls.io/r/otternq/AnalysisOfAlgorithms)
 
 CS/MATH 395
 --------
